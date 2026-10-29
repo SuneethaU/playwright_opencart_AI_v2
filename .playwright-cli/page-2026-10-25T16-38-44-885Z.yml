@@ -1,0 +1,247 @@
+- generic [active] [ref=f6e1]:
+  - navigation [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - button "$ Currency " [ref=f6e7] [cursor=pointer]:
+        - strong [ref=f6e8]: $
+        - text: Currency
+        - generic [ref=f6e9]: 
+      - list [ref=f6e11]:
+        - listitem [ref=f6e12]:
+          - link "" [ref=f6e13] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+          - text: "123456789"
+        - listitem [ref=f6e15]:
+          - link " My Account" [ref=f6e16] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+            - generic [ref=f6e17]: 
+            - text: My Account
+        - listitem [ref=f6e19]:
+          - link " Wish List (0)" [ref=f6e20] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+            - generic [ref=f6e21]: 
+            - text: Wish List (0)
+        - listitem [ref=f6e22]:
+          - link " Shopping Cart" [ref=f6e23] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/cart
+            - generic [ref=f6e24]: 
+            - text: Shopping Cart
+        - listitem [ref=f6e25]:
+          - link " Checkout" [ref=f6e26] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/checkout
+            - generic [ref=f6e27]: 
+            - text: Checkout
+  - banner [ref=f6e28]:
+    - generic [ref=f6e30]:
+      - link [ref=f6e33] [cursor=pointer]:
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+        - img "naveenopencart" [ref=f6e34]
+      - generic [ref=f6e36]:
+        - textbox "Search" [ref=f6e37]: iPhone
+        - button "" [ref=f6e39] [cursor=pointer]
+      - generic [ref=f6e42]:
+        - button " 1 item(s) - $123.20" [ref=f6e208] [cursor=pointer]:
+          - generic [ref=f6e209]:
+            - generic [ref=f6e210]: 
+            - text: 1 item(s) - $123.20
+        - text:   
+  - navigation [ref=f6e46]:
+    - generic: 
+    - list [ref=f6e48]:
+      - listitem [ref=f6e49]:
+        - link "Desktops" [ref=f6e50] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=20
+      - listitem [ref=f6e51]:
+        - link "Laptops & Notebooks" [ref=f6e52] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=18
+      - listitem [ref=f6e53]:
+        - link "Components" [ref=f6e54] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=25
+      - listitem [ref=f6e55]:
+        - link "Tablets" [ref=f6e56] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=57
+      - listitem [ref=f6e57]:
+        - link "Software" [ref=f6e58] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=17
+      - listitem [ref=f6e59]:
+        - link "Phones & PDAs" [ref=f6e60] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=24
+      - listitem [ref=f6e61]:
+        - link "Cameras" [ref=f6e62] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=33
+      - listitem [ref=f6e63]:
+        - link "MP3 Players" [ref=f6e64] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=34
+  - generic [ref=f6e65]:
+    - list [ref=f6e66]:
+      - listitem [ref=f6e67]:
+        - link "" [ref=f6e68] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+      - listitem [ref=f6e70]:
+        - link "Search" [ref=f6e71] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=iPhone
+      - listitem [ref=f6e72]:
+        - link "iPhone" [ref=f6e73] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&search=iPhone&product_id=40
+    - generic [ref=f6e211]:
+      - text: "Success: You have added"
+      - link "iPhone" [ref=f6e212] [cursor=pointer]:
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=40
+      - text: to your
+      - link "shopping cart" [ref=f6e213] [cursor=pointer]:
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/cart
+      - text: "!"
+      - button "×" [ref=f6e214] [cursor=pointer]
+    - generic [ref=f6e75]:
+      - generic [ref=f6e76]:
+        - generic [ref=f6e77]:
+          - list [ref=f6e78]:
+            - listitem [ref=f6e79]:
+              - link [ref=f6e80] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/iphone_1-500x500.jpg
+                - img "iPhone" [ref=f6e81]
+            - listitem [ref=f6e82]:
+              - link [ref=f6e83] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/iphone_4-500x500.jpg
+                - img "iPhone" [ref=f6e84]
+            - listitem [ref=f6e85]:
+              - link [ref=f6e86] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/iphone_3-500x500.jpg
+                - img "iPhone" [ref=f6e87]
+            - listitem [ref=f6e88]:
+              - link [ref=f6e89] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/iphone_5-500x500.jpg
+                - img "iPhone" [ref=f6e90]
+            - listitem [ref=f6e91]:
+              - link [ref=f6e92] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/iphone_2-500x500.jpg
+                - img "iPhone" [ref=f6e93]
+            - listitem [ref=f6e94]:
+              - link [ref=f6e95] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/iphone_6-500x500.jpg
+                - img "iPhone" [ref=f6e96]
+          - list [ref=f6e97]:
+            - listitem [ref=f6e98]:
+              - link "Description" [ref=f6e99]:
+                - /url: "#tab-description"
+            - listitem [ref=f6e100]:
+              - link "Reviews (0)" [ref=f6e101] [cursor=pointer]:
+                - /url: "#tab-review"
+          - generic [ref=f6e102]:
+            - paragraph [ref=f6e104]: iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name or number in your address book, a favorites list, or a call log. It also automatically syncs all your contacts from a PC, Mac, or Internet service. And it lets you select and listen to voicemail messages in whatever order you want just like email.
+            - text: "* * *"
+        - generic [ref=f6e105]:
+          - generic [ref=f6e106]:
+            - button "" [ref=f6e107] [cursor=pointer]
+            - button "" [ref=f6e109] [cursor=pointer]
+          - heading "iPhone" [level=1] [ref=f6e111]
+          - list [ref=f6e112]:
+            - listitem [ref=f6e113]:
+              - text: "Brand:"
+              - link "Apple" [ref=f6e114] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/manufacturer/info&manufacturer_id=8
+            - listitem [ref=f6e115]: "Product Code: product 11"
+            - listitem [ref=f6e116]: "Availability: Out Of Stock"
+          - list [ref=f6e117]:
+            - listitem [ref=f6e118]:
+              - heading "$123.20" [level=2] [ref=f6e119]
+            - listitem [ref=f6e120]: "Ex Tax: $101.00"
+          - generic [ref=f6e122]:
+            - generic [ref=f6e123]: Qty
+            - textbox "Qty" [ref=f6e124]: "1"
+            - button "Add to Cart" [ref=f6e125] [cursor=pointer]
+          - paragraph [ref=f6e127]:
+            - generic [ref=f6e128]: 
+            - generic [ref=f6e130]: 
+            - generic [ref=f6e132]: 
+            - generic [ref=f6e134]: 
+            - generic [ref=f6e136]: 
+            - link "0 reviews" [ref=f6e138] [cursor=pointer]:
+              - /url: ""
+            - text: /
+            - link "Write a review" [ref=f6e139] [cursor=pointer]:
+              - /url: ""
+      - heading "Related Products" [level=3] [ref=f6e140]
+      - generic [ref=f6e143]:
+        - link [ref=f6e145] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=42
+          - img "Apple Cinema 30\"" [ref=f6e146]
+        - generic [ref=f6e147]:
+          - heading [level=4] [ref=f6e148]:
+            - link "Apple Cinema 30\"" [ref=f6e149] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=42
+          - paragraph [ref=f6e150]: The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed speci..
+          - paragraph [ref=f6e151]:
+            - text: $110.00 $122.00
+            - generic [ref=f6e152]: "Ex Tax: $90.00"
+        - generic [ref=f6e153]:
+          - button "Add to Cart " [ref=f6e154] [cursor=pointer]:
+            - text: Add to Cart
+            - generic [ref=f6e155]: 
+          - button "" [ref=f6e156] [cursor=pointer]
+          - button "" [ref=f6e158] [cursor=pointer]
+  - contentinfo [ref=f6e160]:
+    - generic [ref=f6e161]:
+      - generic [ref=f6e162]:
+        - generic [ref=f6e163]:
+          - heading "Information" [level=5] [ref=f6e164]
+          - list [ref=f6e165]:
+            - listitem [ref=f6e166]:
+              - link "About Us" [ref=f6e167] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=4
+            - listitem [ref=f6e168]:
+              - link "Delivery Information" [ref=f6e169] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=6
+            - listitem [ref=f6e170]:
+              - link "Privacy Policy" [ref=f6e171] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=3
+            - listitem [ref=f6e172]:
+              - link "Terms & Conditions" [ref=f6e173] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=5
+        - generic [ref=f6e174]:
+          - heading "Customer Service" [level=5] [ref=f6e175]
+          - list [ref=f6e176]:
+            - listitem [ref=f6e177]:
+              - link "Contact Us" [ref=f6e178] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+            - listitem [ref=f6e179]:
+              - link "Returns" [ref=f6e180] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/return/add
+            - listitem [ref=f6e181]:
+              - link "Site Map" [ref=f6e182] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/sitemap
+        - generic [ref=f6e183]:
+          - heading "Extras" [level=5] [ref=f6e184]
+          - list [ref=f6e185]:
+            - listitem [ref=f6e186]:
+              - link "Brands" [ref=f6e187] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/manufacturer
+            - listitem [ref=f6e188]:
+              - link "Gift Certificates" [ref=f6e189] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/voucher
+            - listitem [ref=f6e190]:
+              - link "Affiliate" [ref=f6e191] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=affiliate/login
+            - listitem [ref=f6e192]:
+              - link "Specials" [ref=f6e193] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/special
+        - generic [ref=f6e194]:
+          - heading "My Account" [level=5] [ref=f6e195]
+          - list [ref=f6e196]:
+            - listitem [ref=f6e197]:
+              - link "My Account" [ref=f6e198] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+            - listitem [ref=f6e199]:
+              - link "Order History" [ref=f6e200] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/order
+            - listitem [ref=f6e201]:
+              - link "Wish List" [ref=f6e202] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+            - listitem [ref=f6e203]:
+              - link "Newsletter" [ref=f6e204] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/newsletter
+      - separator [ref=f6e205]
+      - paragraph [ref=f6e206]:
+        - text: Powered By
+        - link "OpenCart" [ref=f6e207] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: naveenopencart © 2026

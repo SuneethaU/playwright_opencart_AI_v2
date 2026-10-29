@@ -1,0 +1,284 @@
+<testsuites id="" name="" tests="49" failures="0" skipped="0" errors="4" time="258.0682250000001">
+<testsuite name="api\fakestore-api.spec.ts" timestamp="2026-10-28T14:15:01.044Z" hostname="chromium" tests="36" failures="0" skipped="0" time="167.351" errors="4">
+<testcase name="FakeStore API Tests › POST - Login with valid credentials @master @sanity @api @auth" classname="api\fakestore-api.spec.ts" time="30.066">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\api-fakestore-api-FakeStor-23709-ials-master-sanity-api-auth-chromium\error-context.md]]
+]]>
+</system-out>
+<error message="Test timeout of 30000ms exceeded." type="Error">
+<![CDATA[  [chromium] › api\fakestore-api.spec.ts:104:7 › FakeStore API Tests › POST - Login with valid credentials @master @sanity @api @auth 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext.get: Request context disposed.
+    Call log:
+      - → GET https://fakestoreapi.com/users
+        - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36
+        - accept: */*
+        - accept-encoding: gzip,deflate,br
+
+
+      103 |
+      104 |   test('POST - Login with valid credentials @master @sanity @api @auth', async ({ request }) => {
+    > 105 |     const usersResponse = await request.get(`${BASE_URL}${Routes.GET_ALL_USERS}`);
+          |                                         ^
+      106 |     expect(usersResponse.status(), 'Loading seeded users for login should return HTTP 200.')
+      107 |       .toBe(200);
+      108 |     const users: { username?: unknown; password?: unknown }[] = await usersResponse.json();
+        at D:\playwright_opencart_AI_v2\tests\api\fakestore-api.spec.ts:105:41
+
+    Error Context: ..\test-results\api-fakestore-api-FakeStor-23709-ials-master-sanity-api-auth-chromium\error-context.md
+]]>
+</error>
+</testcase>
+<testcase name="FakeStore API Tests › POST - Reject invalid login credentials @master @regression @api @auth" classname="api\fakestore-api.spec.ts" time="0.615">
+</testcase>
+<testcase name="FakeStore API Tests › GET - All products @master @sanity @api @products" classname="api\fakestore-api.spec.ts" time="2.541">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Product by ID @master @sanity @api @products" classname="api\fakestore-api.spec.ts" time="0.367">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Products with limit @master @sanity @api @products" classname="api\fakestore-api.spec.ts" time="0.536">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Products sorted ascending @master @sanity @api @products" classname="api\fakestore-api.spec.ts" time="30.04">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\api-fakestore-api-FakeStor-22062--master-sanity-api-products-chromium\error-context.md]]
+]]>
+</system-out>
+<error message="Test timeout of 30000ms exceeded." type="Error">
+<![CDATA[  [chromium] › api\fakestore-api.spec.ts:182:7 › FakeStore API Tests › GET - Products sorted ascending @master @sanity @api @products 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext.get: Request context disposed.
+    Call log:
+      - → GET https://fakestoreapi.com/products?sort=asc
+        - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36
+        - accept: */*
+        - accept-encoding: gzip,deflate,br
+
+
+      182 |   test('GET - Products sorted ascending @master @sanity @api @products', async ({ request }) => {
+      183 |     const route = Routes.GET_PRODUCTS_SORTED.replace('{order}', 'asc');
+    > 184 |     const response = await request.get(`${BASE_URL}${route}`);
+          |                                    ^
+      185 |
+      186 |     expect(response.status(), 'Ascending product sort should return HTTP 200.').toBe(200);
+      187 |     const products: Product[] = await response.json();
+        at D:\playwright_opencart_AI_v2\tests\api\fakestore-api.spec.ts:184:36
+
+    Error Context: ..\test-results\api-fakestore-api-FakeStor-22062--master-sanity-api-products-chromium\error-context.md
+]]>
+</error>
+</testcase>
+<testcase name="FakeStore API Tests › GET - Products sorted descending @master @sanity @api @products" classname="api\fakestore-api.spec.ts" time="1.01">
+</testcase>
+<testcase name="FakeStore API Tests › GET - All product categories @master @sanity @api @products" classname="api\fakestore-api.spec.ts" time="0.352">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Products by category @master @sanity @api @products" classname="api\fakestore-api.spec.ts" time="0.535">
+</testcase>
+<testcase name="FakeStore API Tests › POST - Create product @master @regression @api @products" classname="api\fakestore-api.spec.ts" time="1.791">
+</testcase>
+<testcase name="FakeStore API Tests › PUT - Update product @master @regression @api @products" classname="api\fakestore-api.spec.ts" time="0.303">
+</testcase>
+<testcase name="FakeStore API Tests › DELETE - Product by ID @master @regression @api @products" classname="api\fakestore-api.spec.ts" time="15.244">
+</testcase>
+<testcase name="FakeStore API Tests › GET - All users @master @sanity @api @users" classname="api\fakestore-api.spec.ts" time="1.331">
+</testcase>
+<testcase name="FakeStore API Tests › GET - User by ID @master @sanity @api @users" classname="api\fakestore-api.spec.ts" time="30.033">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\api-fakestore-api-FakeStor-23bba--ID-master-sanity-api-users-chromium\error-context.md]]
+]]>
+</system-out>
+<error message="Test timeout of 30000ms exceeded." type="Error">
+<![CDATA[  [chromium] › api\fakestore-api.spec.ts:286:7 › FakeStore API Tests › GET - User by ID @master @sanity @api @users 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext.get: Request context disposed.
+    Call log:
+      - → GET https://fakestoreapi.com/users/1
+        - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36
+        - accept: */*
+        - accept-encoding: gzip,deflate,br
+
+
+      286 |   test('GET - User by ID @master @sanity @api @users', async ({ request }) => {
+      287 |     const route = Routes.GET_USER_BY_ID.replace('{id}', String(USER_ID));
+    > 288 |     const response = await request.get(`${BASE_URL}${route}`);
+          |                                    ^
+      289 |
+      290 |     expect(response.status(), 'Getting a user by ID should return HTTP 200.').toBe(200);
+      291 |     const user: User = await response.json();
+        at D:\playwright_opencart_AI_v2\tests\api\fakestore-api.spec.ts:288:36
+
+    Error Context: ..\test-results\api-fakestore-api-FakeStor-23bba--ID-master-sanity-api-users-chromium\error-context.md
+]]>
+</error>
+</testcase>
+<testcase name="FakeStore API Tests › GET - Users with limit @master @sanity @api @users" classname="api\fakestore-api.spec.ts" time="0.639">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Users sorted ascending @master @sanity @api @users" classname="api\fakestore-api.spec.ts" time="0.569">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Users sorted descending @master @sanity @api @users" classname="api\fakestore-api.spec.ts" time="1.41">
+</testcase>
+<testcase name="FakeStore API Tests › POST - Create user @master @regression @api @users" classname="api\fakestore-api.spec.ts" time="2.303">
+</testcase>
+<testcase name="FakeStore API Tests › PUT - Update user @master @regression @api @users" classname="api\fakestore-api.spec.ts" time="0.46">
+</testcase>
+<testcase name="FakeStore API Tests › DELETE - User by ID @master @regression @api @users" classname="api\fakestore-api.spec.ts" time="1.658">
+</testcase>
+<testcase name="FakeStore API Tests › GET - All carts @master @sanity @api @carts" classname="api\fakestore-api.spec.ts" time="1.284">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Cart by ID @master @sanity @api @carts" classname="api\fakestore-api.spec.ts" time="0.761">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Carts by date range @master @sanity @api @carts" classname="api\fakestore-api.spec.ts" time="1.544">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Carts for a user @master @sanity @api @carts" classname="api\fakestore-api.spec.ts" time="0.524">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Carts with limit @master @sanity @api @carts" classname="api\fakestore-api.spec.ts" time="0.543">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Carts sorted ascending @master @sanity @api @carts" classname="api\fakestore-api.spec.ts" time="1.173">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Carts sorted descending @master @sanity @api @carts" classname="api\fakestore-api.spec.ts" time="0.415">
+</testcase>
+<testcase name="FakeStore API Tests › POST - Create cart @master @regression @api @carts" classname="api\fakestore-api.spec.ts" time="1.529">
+</testcase>
+<testcase name="FakeStore API Tests › PUT - Update cart @master @regression @api @carts" classname="api\fakestore-api.spec.ts" time="0.673">
+</testcase>
+<testcase name="FakeStore API Tests › DELETE - Cart by ID @master @regression @api @carts" classname="api\fakestore-api.spec.ts" time="0.532">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Validate product response schema @master @regression @api @schema" classname="api\fakestore-api.spec.ts" time="0.419">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Validate user response schema @master @regression @api @schema" classname="api\fakestore-api.spec.ts" time="1.362">
+</testcase>
+<testcase name="FakeStore API Tests › GET - Validate cart response schema @master @regression @api @schema" classname="api\fakestore-api.spec.ts" time="1.153">
+</testcase>
+<testcase name="FakeStore API Tests › WORKFLOW - Product create, update, and delete @master @regression @api @workflow" classname="api\fakestore-api.spec.ts" time="0.804">
+</testcase>
+<testcase name="FakeStore API Tests › WORKFLOW - User create, update, and delete @master @regression @api @workflow" classname="api\fakestore-api.spec.ts" time="2.801">
+</testcase>
+<testcase name="FakeStore API Tests › WORKFLOW - Cart create, update, and delete @master @regression @api @workflow" classname="api\fakestore-api.spec.ts" time="30.031">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\api-fakestore-api-FakeStor-6bf3c-ter-regression-api-workflow-chromium\error-context.md]]
+]]>
+</system-out>
+<error message="Test timeout of 30000ms exceeded." type="Error">
+<![CDATA[  [chromium] › api\fakestore-api.spec.ts:648:7 › FakeStore API Tests › WORKFLOW - Cart create, update, and delete @master @regression @api @workflow 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext.post: Request context disposed.
+    Call log:
+      - → POST https://fakestoreapi.com/carts
+        - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36
+        - accept: */*
+        - accept-encoding: gzip,deflate,br
+        - content-type: application/json
+        - content-length: 76
+
+
+      651 |     const createPayload = RandomDataUtil.generateCartPayload(USER_ID);
+      652 |     createPayload.products[0].productId = PRODUCT_ID;
+    > 653 |     const createResponse = await request.post(`${BASE_URL}${Routes.CREATE_CART}`, {
+          |                                          ^
+      654 |       data: createPayload,
+      655 |     });
+      656 |
+        at D:\playwright_opencart_AI_v2\tests\api\fakestore-api.spec.ts:653:42
+
+    Error Context: ..\test-results\api-fakestore-api-FakeStor-6bf3c-ter-regression-api-workflow-chromium\error-context.md
+]]>
+</error>
+</testcase>
+</testsuite>
+<testsuite name="web\end-to-end-shopping-flow.spec.ts" timestamp="2026-10-28T14:15:01.044Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.724" errors="0">
+<testcase name="Complete customer shopping journey @master @sanity @regression @web @end-to-end" classname="web\end-to-end-shopping-flow.spec.ts" time="21.724">
+<system-out>
+<![CDATA[✅ Complete customer shopping journey finished successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\login-data-driven.spec.ts" timestamp="2026-10-28T14:15:01.044Z" hostname="chromium" tests="5" failures="0" skipped="0" time="15.637" errors="0">
+<testcase name="Valid login - row 1 @master @regression @web @datadriven" classname="web\login-data-driven.spec.ts" time="3.811">
+<system-out>
+<![CDATA[✅ Data-driven login row 1 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login - row 2 @master @regression @web @datadriven" classname="web\login-data-driven.spec.ts" time="3.215">
+<system-out>
+<![CDATA[✅ Data-driven login row 2 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login - row 3 @master @regression @web @datadriven" classname="web\login-data-driven.spec.ts" time="3.091">
+<system-out>
+<![CDATA[✅ Data-driven login row 3 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login - row 4 @master @regression @web @datadriven" classname="web\login-data-driven.spec.ts" time="2.852">
+<system-out>
+<![CDATA[✅ Data-driven login row 4 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login - row 5 @master @regression @web @datadriven" classname="web\login-data-driven.spec.ts" time="2.668">
+<system-out>
+<![CDATA[✅ Data-driven login row 5 matched its expected result.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\logout-flow.spec.ts" timestamp="2026-10-28T14:15:01.044Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.108" errors="0">
+<testcase name="Customer logout flow @master @sanity @regression @web" classname="web\logout-flow.spec.ts" time="4.108">
+<system-out>
+<![CDATA[✅ Customer logout flow completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\opencart-core-flows.spec.ts" timestamp="2026-10-28T14:15:01.044Z" hostname="chromium" tests="6" failures="0" skipped="0" time="18.398" errors="0">
+<testcase name="Customer registration flow @master @sanity @regression @web" classname="web\opencart-core-flows.spec.ts" time="3.413">
+<system-out>
+<![CDATA[✅ Customer registration flow completed successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Valid customer login flow @master @sanity @regression @web" classname="web\opencart-core-flows.spec.ts" time="2.845">
+<system-out>
+<![CDATA[✅ Valid customer login flow completed successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Valid customer login flow with helper calss data @master @sanity @regression @web" classname="web\opencart-core-flows.spec.ts" time="2.798">
+<system-out>
+<![CDATA[✅ Valid customer login flow completed successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid customer login flow @master @regression @web" classname="web\opencart-core-flows.spec.ts" time="3.498">
+<system-out>
+<![CDATA[✅ Invalid customer login was rejected as expected.
+]]>
+</system-out>
+</testcase>
+<testcase name="Product search flow @master @sanity @regression @web" classname="web\opencart-core-flows.spec.ts" time="2.094">
+<system-out>
+<![CDATA[✅ Product search flow completed successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Add product to cart @master @sanity @regression @web" classname="web\opencart-core-flows.spec.ts" time="3.75">
+<system-out>
+<![CDATA[✅ Add product to cart flow completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
